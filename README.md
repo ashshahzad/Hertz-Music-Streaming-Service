@@ -1,9 +1,8 @@
 # Hertz-Music-Streaming-Service
-# Hertz Music Streaming Service
 
 ## Project Overview
 
-The Hertz Music Streaming Service is a database implementation for a hypothetical music streaming service. This project includes the creation of several tables, insertion of sample data, and the definition of views for querying the database.
+The Hertz Music Streaming Service is a database implementation for a hypothetical music streaming service. This project includes the creation of several tables, insertion of sample data, and the definition of views and complex queries for querying the database.
 
 ## Table of Contents
 
@@ -52,5 +51,4 @@ Music streaming services are becoming increasingly popular as a means of acquiri
 
 The ER diagram represents the relationships between the various entities in the Hertz Music Streaming Service database.
 
-![ER Diagram](path/to/your/ER-diagram.png) <!-- Replace with actual path to ER diagram image -->
-
+![ER Diagram](https://github.com/ashshahzad/Hertz-Music-Streaming-Service/blob/main/Entity%20Relationship%20Diagram.png) 

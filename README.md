@@ -11,7 +11,7 @@ The Hertz Music Streaming Service is a database implementation for a hypothetica
 3. [Scenario of Organization](#scenario-of-organization)
 4. [Database Structure](#database-structure)
 5. [Entity-Relationship Diagram](#entity-relationship-diagram)
-6. [Generated SQL Code](#generated-sql-code)
+6. [Physical ERD](#physical-erd)
 7. [Installation and Usage](#installation-and-usage)
 
 ## Organization Introduction
@@ -52,3 +52,47 @@ Music streaming services are becoming increasingly popular as a means of acquiri
 The ER diagram represents the relationships between the various entities in the Hertz Music Streaming Service database.
 
 ![ER Diagram](https://github.com/ashshahzad/Hertz-Music-Streaming-Service/blob/main/Entity%20Relationship%20Diagram.png) 
+
+## Physical ERD
+
+The Physical ERD shows the type of relationship between each table and the primary and foreign keys
+
+![Physical ERD](https://github.com/ashshahzad/Hertz-Music-Streaming-Service/blob/main/Physical%20ERD.drawio.png)
+
+## Installation and Usage
+
+### Prerequisites
+
+- A MySQL database or any other SQL database management system.
+- SQL client tool to run the SQL scripts.
+
+### Steps to Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ashshahzad/Hertz-Music-Streaming-Service.git
+   cd Hertz-Music-Streaming-Service
+   ```
+
+2. Create the database and tables:
+   ```sql
+   CREATE DATABASE hertz_music_streaming;
+   USE hertz_music_streaming;
+
+   /* Run the provided SQL scripts for table creation and data insertion */
+   SOURCE create_tables.sql;
+   SOURCE insert_data.sql;
+   ```
+
+3. Verify the database setup by running some queries:
+   ```sql
+   SELECT * FROM USERS;
+   SELECT * FROM ALBUMS;
+   ```
+
+### Project Team
+
+- **Muqaddas Ali** (CT-21001)
+- **Fatima Nadeem** (CT-21011)
+- **Aamna Khalid** (CT-21012)
+- **Aisha Shahzad** (CT-21015)

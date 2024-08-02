@@ -80,8 +80,8 @@ The Physical ERD shows the type of relationship between each table and the prima
    USE hertz_music_streaming;
 
    /* Run the provided SQL scripts for table creation and data insertion */
-   SOURCE create_tables.sql;
-   SOURCE insert_data.sql;
+   SOURCE Hertz Music Streaming Service.sql;
+   SOURCE Create Views.sql;
    ```
 
 3. Verify the database setup by running some queries:
